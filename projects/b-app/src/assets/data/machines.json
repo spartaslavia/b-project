@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Scale",
+    "type": "scale",
+    "status": "running"
+  },
+  {
+    "id": 2,
+    "name": "Attacher",
+    "type": "attacher",
+    "status": "alarm"
+  },
+  {
+    "id": 3,
+    "name": "Packer",
+    "type": "packer",
+    "status": "running"
+  },
+  {
+    "id": 4,
+    "name": "Closer",
+    "type": "closer",
+    "status": "warning"
+  }
+]

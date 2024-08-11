@@ -1,0 +1,19 @@
+<div class="machine" [ngClass]="data.status">
+  <div class="machine-status">
+    <i class="material-icons">{{ getIconByStatus(data.status) }}</i>
+  </div>
+  <div *ngIf="!shortMode" class="machine-type">
+    <i
+      [ngClass]="
+        data.type === machineType.SCALE
+          ? 'material-icons'
+          : 'material-icons-outlined'
+      "
+      >{{ getIconByType(data.type) }}</i
+    >
+  </div>
+
+  <div class="machine-name">
+    <span>{{ data.name }}</span>
+  </div>
+</div>

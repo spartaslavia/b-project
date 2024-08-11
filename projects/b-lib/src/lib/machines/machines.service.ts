@@ -10,6 +10,6 @@ export class MachinesService {
   constructor(private http: HttpClient) {}
 
   getMachines(): Observable<Machine[]> {
-    return this.http.get<Machine[]>('/data/machines.json');
+    return this.http.get<Machine[]>('/assets/data/machines.json');
   }
 }

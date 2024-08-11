@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body,
+div,
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+}
+
+.running {
+  background-color: var(--gray-background);
+  color: black;
+  .machine-status {
+    color: green;
+  }
+}
+
+.alarm {
+  background-color: red;
+  color: white;
+}
+
+.warning {
+  background-color: orange;
+  color: white;
+}
+
+:root {
+  --line-weight: 0.25rem;
+  --gray-background: lightgray;
+}

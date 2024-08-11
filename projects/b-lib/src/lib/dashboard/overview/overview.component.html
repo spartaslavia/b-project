@@ -1,0 +1,12 @@
+<div class="overview">
+  <div class="machine-list">
+    <div
+      class="machine"
+      *ngFor="let machine of machines$ | async; let last = last"
+    >
+      <lib-machine [data]="machine"></lib-machine>
+
+      <div *ngIf="!last" class="line"></div>
+    </div>
+  </div>
+</div>

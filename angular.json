@@ -26,7 +26,13 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/b-app/public"
+                "input": "projects/b-app/public",
+                "output": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "projects/b-app/src/assets",
+                "output": "assets"
               }
             ],
             "styles": ["projects/b-app/src/styles.scss"],

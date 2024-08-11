@@ -9,6 +9,7 @@
       "b-lib": ["./dist/b-lib"]
     },
     "outDir": "./dist/out-tsc",
+    "useDefineForClassFields": false,
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,

@@ -18,5 +18,4 @@ export interface Machine {
   name: string;
   status: MachineStatus;
   type: MachineType;
-  lastUpdated: Date;
 }

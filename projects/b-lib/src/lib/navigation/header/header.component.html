@@ -1,0 +1,20 @@
+<div class="header">
+  <div class="logo">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Logo_B%C3%BChler_AG.svg/1200px-Logo_B%C3%BChler_AG.svg.png"
+      alt="Buchler logo"
+      class="img-logo"
+    />
+  </div>
+  <div class="right-part">
+    <div class="date-time">
+      <i class="material-icons">schedule</i>
+      <span>{{ currentTime$ | async | date : "dd.MM.yyyy HH:mm:ss" }}</span>
+    </div>
+    <div class="user-info">
+      <i class="material-icons-outlined">account_circle</i>
+      <span>Operator</span>
+    </div>
+  </div>
+</div>
+<div class="green-line"></div>

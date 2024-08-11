@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  background-color: var(--gray-background);
+  justify-content: start;
+}
+
+.machine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

@@ -9,5 +9,5 @@ import { Machine } from '@lib/machines/model.machines';
   styleUrl: './navbar-item.component.scss',
 })
 export class NavbarItemComponent {
-  @Input() data: Machine | null = null;
+  @Input() data!: Machine;
 }
